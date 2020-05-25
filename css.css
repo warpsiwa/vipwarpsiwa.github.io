@@ -1,0 +1,111 @@
+
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+    background-color: #111; /*#ffff20;*/
+}
+
+h1, h2, h3, h4, h5 {
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+p, li {
+    color: #ccc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #e0e0e0;
+    padding: 0px 1px;
+    border-bottom: 2px solid;
+}
+
+a:hover {
+    border-bottom: none;
+    color: #fff;
+}
+
+::selection {
+    color: #111;
+    background: #ffff20;
+}
+
+::-moz-selection {
+    color: #111;
+    background: #ffff20;
+}
+
+.divider {
+    border: 3px solid #333; 
+}
+
+
+
+ /* slideshow  */
+@keyframes slideshow {
+    10% {left: 0;}
+    20% {left: 0;}
+    30% {left: -100%;}
+    40% {left: -100%;}
+    50% {left: -200%;}
+    60% {left: -200%;}
+    70% {left: -300%;}
+    80% {left: -300%;}
+    90% {left: -400%;}
+    100% {left: -400%}
+}
+
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure img { 
+    width: 20%;
+    float: left;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    animation: 30s slideshow infinite;
+}
+
+@media screen and (max-width: 767px) {
+    #slider {
+        overflow: hidden; 
+        width: 100%; 
+        margin: 0 auto;
+    }
+}
+
+
+ul.horizontal-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+ul.horizontal-list li {
+    float: left;
+    padding-right: 20px;
+}
+
+ul.horizontal-list li a {
+    background: none;
+    border: none;
+}
