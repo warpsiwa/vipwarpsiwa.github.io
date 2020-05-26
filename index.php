@@ -30,9 +30,9 @@
 			<p> - tidak perlu lagi melewati Short Link yang penuh iklan</p>
 			<p> - video kualitas Full HD, Durasi Panjang</p>
 			<br>
-			<img src="http://localhost/test/satu.png" width="1000px" height="500px">
-			<img src="http://localhost/test/dua.png" width="1000px" height="500px">
-			<img src="http://localhost/test/tiga.png" width="1000px" height="500px">
+			<img src="/img/satu.png" width="1000px" height="500px">
+			<img src="/img/dua.png" width="1000px" height="500px">
+			<img src="/img/tiga.png" width="1000px" height="500px">
 			
 			
 			
@@ -41,7 +41,7 @@
 			<p>Jika Berminat silahkan Kontak Email: vipwarpsiwa@gmail.com </p>
 			
 			<div class="footer-payment-logo">
-<img src="http://localhost/test/paypal.png" /> <img src="http://localhost/test/bitcoin.png" /> <img src="http://localhost/test/dana.png" width="100px" height="60px">
+<img src="/img/paypal.png" /> <img src="/img/bitcoin.png" /> <img src="/img/dana.png" width="100px" height="60px">
 </div>
           </div>
       </div>
